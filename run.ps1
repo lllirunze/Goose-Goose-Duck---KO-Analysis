@@ -8,4 +8,4 @@ python code/totalWinRate.py >> $outputFile
 echo "" >> $outputFile
 python code/totalRoleRate.py >> $outputFile
 echo "" >> $outputFile
-python code/playerCampWinRate.py >> $outputFile
+python code/playerCampRate.py >> $outputFile

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 duck_roles = {"鸭子", "间谍", "专业杀手", "刺客", "告密者", "静语者", "派对狂", "爆炸王", "身份窃贼", "忍者", "连环杀手"}
-goose_roles = {"鹅", "肉汁", "通灵者", "正义使者", "警长", "加拿大鹅", "人人恋", "工程师", "模仿者", "侦探", "观鸟者", "政治家", "锁匠", "殡仪员", "网红", "冒险家", "复仇者", "星界行者", "说客", "生存主义者", "跟踪者"}
+goose_roles = {"鹅", "肉汁", "通灵者", "正义使者", "警长", "加拿大鹅", "工程师", "模仿者", "侦探", "观鸟者", "政治家", "锁匠", "殡仪员", "网红", "冒险家", "复仇者", "星界行者", "说客", "生存主义者", "跟踪者"}
 
 # Function to calculate the win rate for each player based on their selected role and the winner
 def calculate_win_rate_curve(player):
