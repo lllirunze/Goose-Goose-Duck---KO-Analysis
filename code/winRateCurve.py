@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+import numpy as np
 
 roles_path = 'data/roles.json'
 with open(roles_path, 'r', encoding='utf-8') as roles_file:
@@ -80,16 +81,21 @@ file_path = 'data/data - Sheet1.csv'
 data = pd.read_csv(file_path)
 
 # 获取日期列表
-days = sorted(pd.to_datetime(data['time']).dt.date.unique())  # 确保日期按时间排序
-days
+# days = sorted(pd.to_datetime(data['time']).dt.date.unique())  # 确保日期按时间排序
+# days
 
 plt.figure(figsize=(20, 12))
 
 days = sorted(pd.to_datetime(data['time']).dt.date.unique())  # 确保日期按时间排序
 players = data.columns
-for player in players[2: -1]:
+
+# 创建唯一颜色映射
+num_lines = len(players[2: -1])
+colors = plt.cm.get_cmap('tab20', num_lines)  # 使用 'tab20' 调色盘
+
+for i, player in enumerate(players[2: -1]):
     win_rate, _, _ = calculate_win_rate_curve(player)
-    plt.plot(days, win_rate, marker='o', linestyle='-', label=player)
+    plt.plot(days, win_rate, marker='o', linestyle='-', label=player, color=colors(i))
 
 plt.xlabel('Days', fontsize=14)
 plt.ylabel('Win Rate', fontsize=14)
