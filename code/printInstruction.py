@@ -13,7 +13,7 @@ def write_to_markdown(input_file):
 
 if __name__ == "__main__":
     # 输入文件路径
-    input_file = "code/instruction.md"  # 请根据需要修改文件名
+    input_file = "doc/instruction.md"  # 请根据需要修改文件名
 
     # 调用函数
     write_to_markdown(input_file)
