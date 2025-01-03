@@ -1,8 +1,16 @@
 import pandas as pd
+import json
 import matplotlib.pyplot as plt
 
-duck_roles = {"鸭子", "间谍", "专业杀手", "刺客", "告密者", "静语者", "派对狂", "爆炸王", "身份窃贼", "忍者", "连环杀手", "小丑", "食鸟鸭", "丧葬者", "传教士", "超能力者", "雇佣杀手", "变形者"}
-goose_roles = {"鹅", "肉汁", "通灵者", "正义使者", "警长", "加拿大鹅", "工程师", "模仿者", "侦探", "观鸟者", "政治家", "锁匠", "殡仪员", "网红", "冒险家", "复仇者", "星界行者", "说客", "生存主义者", "跟踪者", "预言家", "科学家", "流浪儿童", "追踪者", "保镖"}
+roles_path = 'data/roles.json'
+with open(roles_path, 'r', encoding='utf-8') as roles_file:
+    roles = json.load(roles_file)
+
+duck_roles = set(roles["duck_roles"])
+goose_roles = set(roles["goose_roles"])
+
+# duck_roles = {"鸭子", "间谍", "专业杀手", "刺客", "告密者", "静语者", "派对狂", "爆炸王", "身份窃贼", "忍者", "连环杀手", "小丑", "食鸟鸭", "丧葬者", "传教士", "超能力者", "雇佣杀手", "变形者"}
+# goose_roles = {"鹅", "肉汁", "通灵者", "正义使者", "警长", "加拿大鹅", "工程师", "模仿者", "侦探", "观鸟者", "政治家", "锁匠", "殡仪员", "网红", "冒险家", "复仇者", "星界行者", "说客", "生存主义者", "跟踪者", "预言家", "科学家", "流浪儿童", "追踪者", "保镖"}
 
 # Function to calculate the win rate for each player based on their selected role and the winner
 def calculate_win_rate_curve(player):

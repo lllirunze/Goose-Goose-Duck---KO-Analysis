@@ -31,3 +31,4 @@
 23. **zzz**：猪猪猪，非职业选手，zzr的弟弟 - [stream](https://www.huya.com/20279159), [bilibili](https://space.bilibili.com/292170688?spm_id_from=333.337.0.0)
 24. **Xiri**：前tt、lgd战队教练 - [wiki](https://lol.fandom.com/wiki/X1ri)
 25. **Y4NG**：虎牙无畏契约主播 - [stream](https://www.huya.com/127452)
+26. **Jing**：饶靖，前pe战队打野，绰号龙城靖少 - [stream](https://www.douyu.com/138155), [wiki](https://lol.fandom.com/wiki/Jing_(Rao_Jing))
