@@ -20,7 +20,7 @@
 12. **Xiyang**：冰封夕阳，前omg战队上单/中单，老头杯冠军上单，呆呆鸟本鸟，绰号冰封胎男，太阳神 - [stream](https://www.huya.com/598354), [wiki](https://lol.fandom.com/wiki/Xiyang)
 13. **corn**：玉米corn，前皇族战队亚军中单 - [stream](https://www.huya.com/328037), [wiki](https://lol.fandom.com/wiki/Corn_(Lei_Wen))
 14. **酸奶**：前v5战队教练 - [stream](https://www.huya.com/28873985), [wiki](https://lol.fandom.com/wiki/Suannai)
-15. **mouse**：前edg、rw战队上单，绰号光酱、上单之光 - [stream](https://www.douyu.com/4908245), [wiki](https://lol.fandom.com/wiki/Mouse)
+15. **haozi**：虎牙主播耗子 - [stream](https://www.huya.com/10154685)
 16. **xiye**：兮夜，前we战队中单，雅加达亚运会金牌中单，绰号兮拉笑我 - [stream](https://www.douyu.com/12267?dyshid=5eade5c-4bdd21670ee133cd83df178a00011701&dyshci=1), [wiki](https://lol.fandom.com/wiki/Xiye)
 17. **蓝七**：虎牙无畏契约主播 - [stream](https://www.huya.com/126798)
 18. **xyu**：虎牙无畏契约主播 - [stream](https://www.huya.com/134276)
