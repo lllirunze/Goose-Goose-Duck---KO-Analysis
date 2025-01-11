@@ -7,5 +7,5 @@ echo "" >> $outputFile
 python code/totalWinRate.py >> $outputFile
 echo "" >> $outputFile
 python code/totalRoleRate.py >> $outputFile
-echo "" >> $outputFile
-python code/playerCampRate.py >> $outputFile
+# echo "" >> $outputFile
+# python code/playerCampRate.py >> $outputFile
