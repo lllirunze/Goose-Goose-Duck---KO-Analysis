@@ -1,8 +1,8 @@
 # K埔军校鹅鸭杀数据统计
 
-## 胜率曲线"
+## 胜率曲线
 
-![winCurve](image/winCurve.png)
+![winCurve](image/winCurve.gif)
 
 #### Build and Run
 
